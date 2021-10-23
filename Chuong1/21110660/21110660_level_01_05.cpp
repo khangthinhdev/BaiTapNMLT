@@ -1,9 +1,10 @@
 #include <iostream>
-
+#include <string.h>
 using namespace std;
 
 int main()
 {
+    string s;
     long nam;
     cout << "Nhap nam: ";
     cin >> nam;
