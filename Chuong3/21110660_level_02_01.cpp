@@ -19,7 +19,7 @@ int main()
     }
     else
     {
-        double ketqua = float(a) / b;
+        double ketqua = double(a) / b;
         cout << ketqua;
     }
 
