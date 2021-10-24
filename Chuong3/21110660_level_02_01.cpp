@@ -11,5 +11,17 @@ using namespace std;
 
 int main()
 {
+    ll a, b;
+    cin >> a >> b;
+    if (b == 0)
+    {
+        cout << "Khong chia duoc";
+    }
+    else
+    {
+        double ketqua = float(a) / b;
+        cout << ketqua;
+    }
+
     return 0;
 }
