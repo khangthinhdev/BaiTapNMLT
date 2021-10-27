@@ -11,15 +11,21 @@ using namespace std;
 
 int main()
 {
+a:
     char a;
     cin >> a;
     if (a >= 'a' && a <= 'z')
     {
         cout << char(a - 32);
     }
-    if (a >= 'A' && a <= 'Z')
+    else if (a >= 'A' && a <= 'Z')
     {
         cout << char(a + 32);
     }
+    else
+    {
+        goto a;
+    }
+
     return 0;
 }

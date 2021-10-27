@@ -1,13 +1,13 @@
 #include <iostream>
-#include <string.h>
+#include <limits>
 using namespace std;
 
 int main()
 {
-    string s;
     long nam;
     cout << "Nhap nam: ";
     cin >> nam;
+
     if (nam % 400 == 0)
     {
         cout << nam << " la nam nhuan" << endl;

@@ -12,5 +12,6 @@ int main()
     cin >> a >> b;
     long long result = a + b;
     cout << result;
+
     return 0;
 }
