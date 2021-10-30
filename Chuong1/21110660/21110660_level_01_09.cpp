@@ -20,6 +20,6 @@ int main()
     {
         a = long long(a - 0.5);
     }
-    cout << a;
+    cout << a << endl;
     return 0;
 }

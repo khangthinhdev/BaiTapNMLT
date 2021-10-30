@@ -15,11 +15,11 @@ int main()
     cin >> a >> b;
     if (a > b)
     {
-        cout << a;
+        cout << a << endl;
     }
     else
     {
-        cout << b;
+        cout << b << endl;
     }
     return 0;
 }

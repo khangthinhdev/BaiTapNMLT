@@ -10,28 +10,28 @@ int main()
     double phanLe = a - long(a);
     if (a == 0)
     {
-        cout << -1;
+        cout << -1 << endl;
     }
     else if (a > 0)
     {
         if (phanLe == 0)
         {
-            cout << a - 1;
+            cout << a - 1 << endl;
         }
         else
         {
-            cout << a - phanLe;
+            cout << a - phanLe << endl;
         }
     }
     else
     {
         if (phanLe == 0)
         {
-            cout << a - 1;
+            cout << a - 1 << endl;
         }
         else
         {
-            cout << a - phanLe - 1;
+            cout << a - phanLe - 1 << endl;
         }
     }
     return 0;

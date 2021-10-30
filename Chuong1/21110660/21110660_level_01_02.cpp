@@ -13,6 +13,6 @@ int main()
 {
     ll n;
     cin >> n;
-    cout << abs(n);
+    cout << abs(n) << endl;
     return 0;
 }

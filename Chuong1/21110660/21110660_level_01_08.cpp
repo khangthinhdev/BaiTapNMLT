@@ -16,15 +16,15 @@ a:
     cin >> a;
     if (a >= 'a' && a <= 'z')
     {
-        cout << char(a - 32);
+        cout << char(a - 32) << endl;
     }
-    else if (a >= 'A' && a <= 'Z')
+    if (a >= 'A' && a <= 'Z')
     {
-        cout << char(a + 32);
+        cout << char(a + 32) << endl;
     }
     else
     {
-        goto a;
+        cout << "" << endl;
     }
 
     return 0;
