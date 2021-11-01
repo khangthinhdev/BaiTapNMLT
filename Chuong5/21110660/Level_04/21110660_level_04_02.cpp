@@ -12,11 +12,8 @@ bool kiemTraSNT(long long n)
     {
         return true;
     }
-    else // cac so tu 3 ->
+    else
     {
-        // 25
-        // sqrt(25)=5
-        // i = 2->5
         for (int i = 2; i <= sqrt(n); i++)
         {
             if (n % i == 0)
@@ -26,7 +23,6 @@ bool kiemTraSNT(long long n)
         }
         return true;
     }
-    return false;
 }
 
 int main()
