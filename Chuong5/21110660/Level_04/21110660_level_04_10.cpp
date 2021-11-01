@@ -21,11 +21,15 @@ int main()
         long long prev1 = 0;
         long long prev2 = 1;
         // prev1 prev2 current
+        //   1     1     2       3
+        // prev1 = 1;
+        // prev2 = 2;
         cout << 1 << " ";
         for (int i = 0; i < n - 1; i++)
         {
             current = prev1 + prev2;
             cout << current << " ";
+
             prev1 = prev2;
             prev2 = current;
         }
